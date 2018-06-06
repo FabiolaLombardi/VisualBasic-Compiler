@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Compilador en Visual Basic</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js" ></script>
+    <script src="main2.js"></script>
+</head>
+<body class="green accent-2">
+    <div class="container">
+        <div class="title">
+            <u><h2 class="black-text center-align" style="font-family: Monospace">COMPILADOR EN BASIC</h2></u>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col s6">
+                <h5 class="flow-text center-align" style="font-family: Monospace">DECLARA VARIABLES!</h5>
+                <br>
+                <textarea style="font-family: Monospace" class="materialize-textarea" placeholder="" id="campoInput"></textarea>
+                <div class="center-align">
+                    <button class="black white-text btn" onclick="evaluar()" style="font-family: Monospace">submit</button>
+                </div>
+            </div>
+            <div class="col s6">
+                    <h5 class="flow-text center-align" style="font-family: Monospace">REALIZA OPERACIONES ARITMETICAS!</h5>
+                    <br>
+                    <textarea style="font-family: Monospace" class="materialize-textarea" placeholder="" id="campoOperar"></textarea>
+                    <div class="center-align">
+                            <button class="black white-text btn" onclick="operar()" style="font-family: Monospace">submit</button>
+                    </div>
+            </div>
+            
+            <div class="col s12">
+                <br><br>
+                    <h5 class="flow-text center-align" style="font-family: Monospace">REALIZA OPERACIONES EN NOTACION POSFIJA!</h5>
+                    <br>
+                    <textarea style="font-family: Monospace" class="materialize-textarea" placeholder="" id="campoPosfijo"></textarea>
+                <div class="center-align">
+                    <button class="black white-text btn" onclick="posfija()" style="font-family: Monospace">Notacion posfija</button>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+</body>
+</html>

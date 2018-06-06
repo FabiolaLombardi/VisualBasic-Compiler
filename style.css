@@ -1,0 +1,35 @@
+h1{
+	font-family: "Lucida Console", Monospace;
+	font-size: 55px;
+	border-radius: 30px;
+	border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    letter-spacing:15px;
+}
+body{
+    background-color: antiquewhite;
+
+}
+#evalButton{
+	background-color: lightgray;
+	font-family: "Lucida Console", Monospace;
+	border-radius:30px;
+	font-size:30px;
+	border-color:black;
+}
+#campoInput{
+	border-color:black;
+	font-family: "Lucida Console", Monospace;
+	border-radius:30px;
+	font-size:30px;
+	border:30;    			
+}
+#campoOperar{
+	border-color:black;
+	font-family: "Lucida Console", Monospace;
+	border-radius:30px;
+	font-size:30px;
+	border:30;    			
+}
